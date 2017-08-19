@@ -1,0 +1,176 @@
+baseurl = "https://devnetmsu.com"
+title = "DevNet"
+theme = "hugo-universal-theme"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "Schedule"
+    identifier = "schedule"
+    url  = "/schedule/"
+    weight = 3
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/devnetmsu"
+    pre = "<i class='fa fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com/devnetmsu"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Twitter"
+    url = "http://twitter.com/devnet_msu"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:info@devnetmsu.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevNet"
+    defaultKeywords = ["devnet", "dev", "net", "mississippi", "state", "university", "msstate", "software", "engineering", "club"]
+    defaultDescription = "DevNet MSU Updates"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyBDQlRDFEouIikQv48FXquz5WVCUQRwefA"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "marsala"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "info@devnetmsu.com"
+
+    about_us = "<p>DevNet is the Software Engineering Club at Mississippi State University.</p>"
+    copyright = "Copyright (c) 2017 - Present, DevNet; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    address = """<p><strong>DevNet</strong>
+        <br>101 McCool Hall
+        <br>40 Old Main
+        <br>Post Office Box 5288
+        <br>Mississippi State University, MS 39762
+        <br>
+        <strong>United States</strong>
+      </p>
+      """
+    latitude = "33.453476"
+    longitude = "-88.79056400000002"
+    direction = "MSU Center for Entrepreneurship & Innovation, 101 McCool Hall, 40 Old Main, Post Office Box 5288, Mississippi State University, MS 39762"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us at info@devnetmsu.com.</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[params.officers]
+    enable = true
+    # All officers are defined in their own files. You can find example items
+    # at 'exampleSite/data/officers'.
+    # For more information take a look at the README.
+    title = "Officers"
+    subtitle = "We have worked with many sponsors and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our sponsors said about us."
+
+[params.see_more]
+    enable = false
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.sponsors]
+    enable = false
+    # All sponsors are defined in their own files. You can find example items
+    # at 'exampleSite/data/sponsors'.
+    # For more information take a look at the README.
+    title = "Our Sponsors"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "View our lastest blog posts for news, projects, opportunities, and more"
