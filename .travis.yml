@@ -1,0 +1,24 @@
+language: go
+
+go:
+  - 1.7
+  
+addons:
+  apt:
+    packages:
+    - python-pygments
+
+install:
+- go get -v github.com/gohugoio/hugo
+- rm -rf public || exit 0
+
+script:
+- hugo
+
+deploy:
+  provider: firebase
+  token:
+    secure: abyxGRfDmP6p9/vegprcGW5lKhQXLmGOxDA1GiR/RKSBm2UHRG+caaWXLIbPL+kl4KQpYVk04FH1JkTBnSoiQD8fyCN+Y5pV3TPClMgbr/caXzM9EEVQ1d7oB9p2e5BzVD0nnfZ0pn5hd5sIF/Wdc+BdZoSJluit5R/qT48tZ/zCcR368rmUy4BoJfDuSbEtc1gyy12tzXBY/eEzeEaCMIcWFrJh7LPjrVqGFRZRy37Wb1ls9oUhyKL8gtLxWsh7B1KBdiTfmW/n9Bgot7J8gLj2NrllgDgrLcfZHnn8XdEhb+70FW1LCJ2+a2ubVIDi66pOLjeYUypIIUys954GM4EsEgwjKEzEuhKwce0jgKutymOeUSThltfsjsobOpateJvhuC99UTnKkUINHs3r7CMGFNZ1CvBR86d9nrXvDMQGJykScrPTJ0plA2o0YbnJLKq5RtfnosC/vEOGvSMP3ARZmUOpbj5Eo9ZE8ObhzobKR5Vy5+c9CIPWDD+MQzPxr8mQ2Kl0d7xRxifPmXmNSU382FqTfNiceJ9hjEfIXMjPILeh+szmWWQ4tY5YMDXu074EuV55CKPvM0FfjU3U6S40ThakMNCCjLPL+clLb0oJBjAlU6zWVYdCZ/fCwSr/6/ddUAZSNu3oVJzuIhQw+XooTp7+pewouMcndl5OTr4=
+  project: "devnet-83c4c"
+  on:
+    branch: master
