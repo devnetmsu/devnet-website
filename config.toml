@@ -1,4 +1,4 @@
-baseurl = "https://devnetmsu.com"
+baseurl = "/"
 title = "DevNet"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -24,18 +24,13 @@ paginate = 10
 [[menu.main]]
     name = "Blog"
     url  = "/blog/"
+    banner = "img/banners/banner-1.png"
     weight = 2
 
 [[menu.main]]
     name = "Schedule"
     identifier = "schedule"
     url  = "/schedule/"
-    weight = 3
-
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
     weight = 3
 
 [[menu.main]]
@@ -76,7 +71,7 @@ paginate = 10
     defaultDescription = "DevNet MSU Updates"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyBDQlRDFEouIikQv48FXquz5WVCUQRwefA"
+    googleMapsApiKey = ""
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "marsala"
@@ -106,7 +101,6 @@ paginate = 10
     address = """<p><strong>DevNet</strong>
         <br>101 McCool Hall
         <br>40 Old Main
-        <br>Post Office Box 5288
         <br>Mississippi State University, MS 39762
         <br>
         <strong>United States</strong>
@@ -114,7 +108,7 @@ paginate = 10
       """
     latitude = "33.453476"
     longitude = "-88.79056400000002"
-    direction = "MSU Center for Entrepreneurship & Innovation, 101 McCool Hall, 40 Old Main, Post Office Box 5288, Mississippi State University, MS 39762"
+    direction = "MSU Center for Entrepreneurship & Innovation, 101 McCool Hall, 40 Old Main, Mississippi State University, MS 39762"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -152,7 +146,7 @@ paginate = 10
     # at 'exampleSite/data/officers'.
     # For more information take a look at the README.
     title = "Officers"
-    subtitle = "We have worked with many sponsors and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our sponsors said about us."
+    subtitle = "Our officers keep the club running and work to improve the quality on a constant basis."
 
 [params.see_more]
     enable = false
@@ -173,4 +167,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "View our lastest blog posts for news, projects, opportunities, and more"
+    subtitle = "View our lastest blog posts for news, projects, opportunities, and more."

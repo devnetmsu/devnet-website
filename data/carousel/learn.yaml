@@ -2,9 +2,8 @@ weight: 2
 title: "Learn"
 description: >
   <ul class="list-style-none">
-    <li>Clean and elegant design</li>
-    <li>Full width and boxed mode</li>
-    <li>Easily readable Roboto font and awesome icons</li>
-    <li>7 preprepared colour variations</li>
+    <li>Hear from industry professionals</li>
+    <li>Find out about new technologies</li>
+    <li>Learn from your peers</li>
   </ul>
-image: "img/carousel/template-easy-customize.png"
+image: "img/carousel/learn.png"

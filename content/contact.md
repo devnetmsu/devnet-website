@@ -3,8 +3,6 @@ title = "Contact"
 id = "contact"
 +++
 
-# We are here to help you
+# We are here for you
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-
-Please feel free to contact us, our customer service center is working for you 24/7.
+Are you curious about something? Do you have a burning question about the club? Are you interested, but unsure about how to get involved? Please feel free to contact us.
