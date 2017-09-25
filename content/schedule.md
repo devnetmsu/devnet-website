@@ -1,5 +1,6 @@
 +++
 title = "Schedule"
+id = "schedule"
 description = "DevNet Meeting Schedule"
 keywords = ["Schedule", "when", "where"]
 +++
