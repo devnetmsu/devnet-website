@@ -1,6 +1,5 @@
 +++
 title = "FAQ"
-id = "faq"
 description = "DevNet FAQ"
 keywords = ["frequently", "questions", "asked"]
 +++
