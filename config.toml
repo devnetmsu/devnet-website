@@ -23,6 +23,7 @@ paginate = 10
 
 [[menu.main]]
     name = "FAQ"
+    identifier = "faq"
     url  = "/faq/"
     weight = 2
 
@@ -33,7 +34,8 @@ paginate = 10
     weight = 3
 
 [[menu.main]]
-    name = "Schedule"    
+    name = "Schedule"
+    identifier = "schedule"
     url  = "/schedule/"
     weight = 4
 
