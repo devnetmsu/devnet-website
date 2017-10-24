@@ -15,4 +15,4 @@ We had 3 submissions for the worst 90's website:
 * [Regret](http://90s.uniquegeeks.net/regret/regret.html), by Marco O'Blepias and Britt Faulkner
 * [Ducks](http://90s.uniquegeeks.net/ducks/Ducks.html), James Chandler Musgrove and John Grogan
 
-Come to the next meeting this Wednesday the 25th to vote for ~~the best~~ ~~ the worst~~ your favorite submissions and attend Dr. Wes McGrew's presentation on application security testing. 
+Come to the next meeting this Wednesday the 25th to vote for ~~the best~~ ~~the worst~~ your favorite submissions and attend Dr. Wes McGrew's presentation on application security testing. 
