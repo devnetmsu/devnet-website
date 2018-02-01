@@ -47,12 +47,6 @@ paginate = 10
 # Top bar social links menu
 
 [[menu.topbar]]
-    weight = 1
-    name = "Slack"
-    url = "https://msstateecenter.slack.com/signup"
-    pre = "<i class='fa fa-2x fa-slack'></i>"
-
-[[menu.topbar]]
     weight = 2
     name = "GitHub"
     url = "https://github.com/devnetmsu"
